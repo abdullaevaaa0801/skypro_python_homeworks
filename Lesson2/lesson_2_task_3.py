@@ -1,7 +1,9 @@
+import math as m
 def square(side):
-    if not isinstance(side, int):
-        return int(side ** 2 + 0.99)
+    side=22.4
+    area=side**2
+    if side == int:
+        return area
     else:
-        return side ** 2
-print(square(3))
-print(square(3.2))
+        return m.ceil(side**2)
+print("Площадь квадрата:",square("area"))

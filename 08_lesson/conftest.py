@@ -8,4 +8,3 @@ def get_token(username='bloom', password='fire-fairy'):
     resp_token = requests.post(X_client_URl + '/auth/login', json=login_pass)
     token = resp_token.json()['userToken']
     return token
-
